@@ -66,7 +66,6 @@ export default function MainScreen () {
             <View style={styles.listButton}>
               <Link href={{ pathname:`quizes/${index}`}} asChild>
                 <TouchableOpacity
-                    /* onPress={() => console.log(`clicked ${index}`)} */
                     style={{flex: 4, padding: 10}}
                     >
                     <ThemedText>{item?.title}</ThemedText>
